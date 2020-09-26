@@ -9,14 +9,9 @@
 <title>Login Form</title>
 </head>
 <body>
-<core:if test="${param.error != null}">
-	<i>Invalid Credentials!!!</i>
-</core:if>
+
 
 <spring-form:form action="${pageContext.request.contextPath}/validate" method="POST">
-	<form action="action_page.php" method="post">
-
-
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
@@ -32,7 +27,7 @@
     <button type="button" class="cancelbtn">Cancel</button>
     
   </div>
-</form>
+
 </spring-form:form>
 <core:if test="${param.logout != null}">
 	<i>You have been logged out successfully!!!</i>

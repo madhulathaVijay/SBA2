@@ -17,10 +17,10 @@ public class LoginController {
 		return "error-page";
 	}
 	
-	/*@RequestMapping("/validate")
+	@RequestMapping("/validate")
 	public String validate() {
 		return "admin-home";
-	}*/
+	}
 	
 	
 }

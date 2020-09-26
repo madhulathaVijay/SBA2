@@ -16,7 +16,7 @@
 <h1>WELCOME ADMIN</h1>
 
 	<ul class="nav navbar-nav">
-	<a href="${pageContext.request.contextPath}/show-all-item-admin"><input type="button" value="All ITEMS" /></a>
+	<a href="${pageContext.request.contextPath}/admin/product-list"><input type="button" value="All ITEMS" /></a>
 	<a href="${pageContext.request.contextPath}/product-entry"><input type="button" value="ADD NEW" /></a>
 	</ul>
 	
